@@ -1,11 +1,10 @@
 import { getLanguageCodes, Translate, translate } from "./api.ts";
 
 async function main() {
-  const codes = await Promise.resolve(getLanguageCodes());
-
+  const codes = await getLanguageCodes();
+  const limit = 2;
   const testString =
     "The greatest glory in living lies not in never falling, but in rising every time we fall.";
-  const limit = 2;
 
   const translation = await translationBlender(testString, codes, limit);
   console.log(translation.translatedText);
