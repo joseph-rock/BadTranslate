@@ -1,1 +1,1 @@
-Utilizes [LibreTranslate](https://libretranslate.com/) to cycle text through various languages and eventually back to english.
+Utilizes [LibreTranslate](https://github.com/LibreTranslate/LibreTranslate) to cycle text through various languages and eventually back to english.
